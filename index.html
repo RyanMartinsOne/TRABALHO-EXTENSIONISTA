@@ -14,6 +14,20 @@
     <header>
         <span id="title">Inventário de Informática</span>
     </header>
+    <main>
+        <div class="container">
+            <form id="inventory-form">
+                <label for="item-name">Nome do Item:</label>
+                <input type="text" id="item-name" name="item-name" required>
+
+                <label for="item-quantity">Quantidade:</label>
+                <input type="number" id="item-quantity" name="item-quantity" required>
+
+                <button type="submit">Adicionar Item</button>
+            </form>
+            <ul id="inventory-list"></ul>
+        </div>
+    </main>
     
 </body>
 </html>

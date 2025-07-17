@@ -24,3 +24,7 @@ header {
 #title {
     color: #d9e0e2;
 }
+
+main {
+    padding: 1.3rem 2rem;
+}
